@@ -1,5 +1,10 @@
 @import '../../sassStyles/variables.scss';
 
+section {
+  padding-bottom: 16rem;
+  border-bottom: 1px solid $bg-gray;
+}
+
 .heading {
   font-size: 5.8rem;
   text-align: center;
@@ -20,8 +25,7 @@
 }
 
 .tabImage {
-  box-shadow: -10px -10px 30px rgba(0, 82, 204, 0.2);
-  border-radius: 50px;
+  filter: $drop-shadow-lg;
 }
 
 .phoneImage {
@@ -29,6 +33,5 @@
   bottom: -6.4rem;
   right: 18rem;
 
-  box-shadow: -5px -5px 15px rgba(0, 82, 204, 0.2);
-  border-radius: 50px;
+  filter: $drop-shadow-md;
 }

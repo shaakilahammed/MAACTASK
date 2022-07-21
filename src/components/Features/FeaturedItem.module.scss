@@ -1,0 +1,34 @@
+@import '../../sassStyles/variables.scss';
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemContainerRight {
+  align-items: flex-end;
+}
+
+.iconContainer {
+  width: 7.2rem;
+  height: 7.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 3px 5px 3px #ccc;
+}
+
+.tertiaryHeading {
+  font-size: 2.6rem;
+  padding: 2rem 0;
+}
+
+.text {
+  font-size: 1.6rem;
+  color: $text-gray;
+}
+
+.textRight {
+  text-align: right;
+}
