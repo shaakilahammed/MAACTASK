@@ -1,0 +1,62 @@
+@import '../../sassStyles/variables.scss';
+
+.aboutUsSection {
+  padding: 9.6rem 0;
+  background: #fff
+    url(../../assets/images/blue-abstract-layered-stripes-background-1.png)
+    no-repeat;
+  background-size: 100%;
+}
+
+.aboutUsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.aboutUsImage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  background: transparent url(../../assets/images/bg-about.png) no-repeat center
+    center;
+}
+
+.orderVsDelivery {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+
+.subHeading {
+  color: $text-secondary;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.secondaryHeading {
+  font-size: 4rem;
+  font-weight: 800;
+  padding: 2.4rem 0;
+}
+.aboutUsText {
+  color: $text-gray;
+  font-size: 2rem;
+  padding: 2.4rem 0;
+}
+.ceoTestimony {
+  display: flex;
+  column-gap: 3.6rem;
+  padding: 2.4rem 0;
+  border-top: 1px solid $bg-gray;
+}
+.ceoDetails {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+}
+.ceoMessage {
+  color: $text-gray;
+  font-size: 2.2rem;
+}
+.ceoName {
+  font-size: 2.2rem;
+  font-weight: 700;
+}

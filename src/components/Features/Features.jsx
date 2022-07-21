@@ -4,7 +4,7 @@ import FeaturedItem from './FeaturedItem';
 import classes from './Features.module.scss';
 const Features = () => {
   return (
-    <section>
+    <section className={classes.feturedSection}>
       <div className="container">
         <span className={classes.subHeading}>Products Features</span>
         <h2 className={classes.secondaryHeading}>Make more out of your data</h2>

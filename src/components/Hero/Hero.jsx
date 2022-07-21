@@ -6,7 +6,7 @@ import classes from './Hero.module.scss';
 
 const Hero = () => {
   return (
-    <section>
+    <section className={classes.heroSection}>
       <div className="container">
         <h1 className={classes.heading}>
           Analytics that transform your product inside-out

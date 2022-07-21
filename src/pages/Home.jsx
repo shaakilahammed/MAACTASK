@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutUs from '../components/AboutUs/AboutUs';
 import Features from '../components/Features/Features';
 import Hero from '../components/Hero/Hero';
 import NavBar from '../components/NavBar/NavBar';
@@ -11,6 +12,7 @@ const Home = () => {
         <NavBar />
         <Hero />
         <Features />
+        <AboutUs />
       </div>
     </>
   );
