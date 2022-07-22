@@ -4,6 +4,7 @@ import Faq from '../components/Faq/Faq';
 import Features from '../components/Features/Features';
 import Hero from '../components/Hero/Hero';
 import NavBar from '../components/NavBar/NavBar';
+import Teams from '../components/Teams/Teams';
 import classes from './Home.module.scss';
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         <Features />
         <AboutUs />
         <Faq />
+        <Teams />
       </div>
     </>
   );

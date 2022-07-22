@@ -2,8 +2,8 @@
 
 .faqSection {
   padding: 9.6rem 0;
-  background: $bg-primary url(../../assets/images/bg-faq.png) no-repeat center
-    center;
+  background: $bg-primary url(../../assets/images/bg-faq.png) no-repeat;
+  background-size: 100%;
 }
 
 .subHeading {
