@@ -1,0 +1,23 @@
+@import '../../sassStyles/variables.scss';
+
+.questionContainer {
+  padding: 3.2rem;
+  background-color: #fff;
+  border-radius: 1.6rem;
+}
+.questionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.question {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.answer {
+  margin-top: 1.6rem;
+
+  font-size: 2rem;
+  color: $text-gray;
+}
