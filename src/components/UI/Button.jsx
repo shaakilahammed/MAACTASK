@@ -1,11 +1,11 @@
 import React from 'react';
 import classes from './Button.module.scss';
-const Button = ({ text, type = 'btnFull', bold = false }) => {
+const Button = ({ text, type = 'btnFull', bold = false, className }) => {
   return (
     <button
       className={`${classes.btn} ${
         type === 'btnOutline' ? classes.btnOutline : classes.btnFull
-      } ${bold && classes.bold}`}
+      } ${bold && classes.bold} ${className && className}`}
     >
       {text}
     </button>

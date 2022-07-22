@@ -1,0 +1,20 @@
+@import '../../sassStyles/variables.scss';
+
+.inputBox {
+  width: 60.08rem;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 2px solid $bg-gray;
+  font-size: 2rem;
+  padding: 2rem 0;
+  margin-top: 1.6rem;
+  color: $text-gray;
+  background-color: transparent;
+}
+
+.inputBox:focus {
+  outline: none;
+
+  border-color: #999;
+}
