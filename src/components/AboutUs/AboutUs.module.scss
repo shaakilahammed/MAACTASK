@@ -1,11 +1,11 @@
 @import '../../sassStyles/variables.scss';
 
 .aboutUsSection {
-  padding: 9.6rem 0;
+  padding: 9.6rem 0 0 0;
   background: #fff
     url(../../assets/images/blue-abstract-layered-stripes-background-1.png)
     no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .aboutUsContainer {
@@ -19,11 +19,13 @@
 
   background: transparent url(../../assets/images/bg-about.png) no-repeat center
     center;
+  justify-items: center;
+  row-gap: 2.4rem;
 }
 
 .orderVsDelivery {
   grid-column: 1/-1;
-  justify-self: center;
+  //   justify-self: center;
 }
 
 .subHeading {
@@ -59,4 +61,11 @@
 .ceoName {
   font-size: 2.2rem;
   font-weight: 700;
+}
+
+.statesContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  padding: 9.6rem 0;
 }

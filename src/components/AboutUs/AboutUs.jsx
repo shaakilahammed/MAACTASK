@@ -3,7 +3,9 @@ import ceoImage from '../../assets/images/ceo.png';
 import chartImage from '../../assets/images/chart.png';
 import orderVsDeliveryImage from '../../assets/images/order-delivery.png';
 import topSellingImage from '../../assets/images/top-selling.png';
+import MonitorMouseIcon from '../UI/Icons/MonitorMouseIcon';
 import classes from './AboutUs.module.scss';
+import State from './State';
 const AboutUs = () => {
   return (
     <section className={classes.aboutUsSection}>
@@ -41,6 +43,28 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className={classes.statesContainer}>
+          <State
+            icon={<MonitorMouseIcon />}
+            text="Platforms Created"
+            count="10+"
+          />
+          <State
+            icon={<MonitorMouseIcon />}
+            text="Platforms Created"
+            count="10+"
+          />
+          <State
+            icon={<MonitorMouseIcon />}
+            text="Platforms Created"
+            count="10+"
+          />
+          <State
+            icon={<MonitorMouseIcon />}
+            text="Platforms Created"
+            count="10+"
+          />
         </div>
       </div>
     </section>

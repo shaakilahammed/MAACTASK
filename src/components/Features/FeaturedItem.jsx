@@ -1,5 +1,5 @@
 import React from 'react';
-import BoxIcon from '../UI/BoxIcon';
+import BoxIcon from '../UI/Icons/BoxIcon';
 import classes from './FeaturedItem.module.scss';
 const FeaturedItem = ({ heading, text, rightAlign = false }) => {
   return (
