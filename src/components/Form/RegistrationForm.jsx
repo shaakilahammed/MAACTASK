@@ -1,12 +1,19 @@
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import Button from '../UI/Button';
 import CheckBox from './CheckBox';
 import classes from './RegistrationForm.module.scss';
 import SelectBox from './SelectBox';
 import TextInput from './TextInput';
+
 const RegistrationForm = () => {
+  const navigate = useNavigate();
+  const submitHandler = (e) => {
+    e.preventDefault();
+    navigate('/login');
+  };
   return (
-    <div className="container">
+    <div className="container" onSubmit={submitHandler}>
       <form className={classes.form}>
         <h2 className={classes.title}>Create Account</h2>
         <p className={classes.desc}>
@@ -25,9 +32,9 @@ const RegistrationForm = () => {
         <Button text="Create Account" bold className={classes.submitButton} />
         <p className={classes.signIn}>
           Already have an account?{' '}
-          <a href="/login" className={classes.link}>
+          <Link to="/login" className={classes.link}>
             Sign In
-          </a>
+          </Link>
         </p>
       </form>
     </div>
