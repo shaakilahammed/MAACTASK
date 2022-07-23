@@ -1,0 +1,19 @@
+@import '../../sassStyles/variables.scss';
+
+.stateContainer {
+  display: flex;
+  flex-direction: column;
+  column-gap: 2.4rem;
+  align-items: center;
+}
+
+.count {
+  font-size: 40px;
+  font-weight: 800;
+  color: $text-secondary;
+}
+
+.text {
+  font-size: 24px;
+  color: $text-gray;
+}

@@ -1,0 +1,17 @@
+@import '../../sassStyles/variables.scss';
+
+.checkBox {
+  width: 60.08rem;
+  display: block;
+  margin: 1.6rem auto;
+
+  font-size: 2rem;
+  padding: 2rem 0;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.link {
+  color: $text-secondary;
+  text-decoration: none;
+}

@@ -1,0 +1,10 @@
+@import '../../sassStyles/variables.scss';
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+nav {
+  border-bottom: 1px solid $bg-gray;
+}

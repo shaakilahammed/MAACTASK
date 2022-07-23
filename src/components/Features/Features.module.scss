@@ -1,0 +1,65 @@
+@import '../../sassStyles/variables.scss';
+
+.feturedSection {
+  padding: 9.6rem 0;
+}
+
+.subHeading {
+  display: block;
+  font-size: 2rem;
+  text-align: center;
+  color: $text-secondary;
+}
+
+.secondaryHeading {
+  font-size: 4.8rem;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 6.8rem;
+}
+
+.featuresArea {
+  display: grid;
+  grid-template-columns: 3fr 6fr 3fr;
+}
+
+.leftFeaturesArea {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6.4rem;
+  justify-content: right;
+}
+
+.featuredImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.featuredImage img {
+  filter: $drop-shadow-sm;
+  z-index: 2;
+}
+
+.featuredImage::before {
+  content: '';
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 90%;
+  background-color: $bg-primary;
+  padding-bottom: 90%;
+  z-index: 1;
+}
+
+.rightFeaturesArea {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6.4rem;
+  justify-content: left;
+}
