@@ -1,0 +1,11 @@
+@import '../../../sassStyles/variables.scss';
+
+.container {
+  background-color: #f2f2f5;
+
+  p {
+    font-size: 1.3rem;
+    color: $text-gray;
+    padding: 2.4rem;
+  }
+}

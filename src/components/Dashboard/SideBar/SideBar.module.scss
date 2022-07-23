@@ -1,0 +1,33 @@
+@import '../../../sassStyles/variables.scss';
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: $text-gray;
+  padding: 0.8rem 0;
+  display: block;
+}
+
+.menuItem {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+  padding: 0.4rem 0;
+
+  div {
+    width: 24px;
+    height: 24px;
+  }
+  span {
+    color: $text-gray;
+    display: block;
+    font-size: 1.4rem;
+  }
+}
+
+.active {
+  border-right: 0.8rem solid $bg-primary;
+  span {
+    color: $text-secondary;
+  }
+}
